@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ada Lovelace Tribute Page</title>
+    <link rel="stylesheet" href="./css/styles.css">
+  </head>
+  <body>
+    <main id="main">
+      <h1 id="title">Ada Lovelace</h1>
+      <figure id="img-div">
+        <picture>
+          <source media="(max-width: 415px)"
+              srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Ada_Lovelace_Chalon_portrait.jpg/240px-Ada_Lovelace_Chalon_portrait.jpg">
+          <source media="(max-width: 668px)"
+              srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Ada_Lovelace_Chalon_portrait.jpg/480px-Ada_Lovelace_Chalon_portrait.jpg">
+          <source media="(max-width: 963px)"
+              srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Ada_Lovelace_Chalon_portrait.jpg/768px-Ada_Lovelace_Chalon_portrait.jpg">
+          <img id="image"
+              src="https://upload.wikimedia.org/wikipedia/commons/c/c0/Ada_Lovelace_Chalon_portrait.jpg"
+              alt="">
+        </picture>
+        <figcaption id="img-caption">Many consider Ada Lovelace to be the
+          world's first computer programmer.</figcaption>
+      </figure>
+      <article id="tribute-info">
+        <h2>About Ada Lovelace</h2>
+        <p>Ada Lovelace was an English mathematician primarily known for her
+          work on Charles Babbage's proposed mechanical computer, the Analytical
+          Machine. She was the first to recognize that the machine's
+          applications extended far beyond pure calculations and that it could
+          potentially solve problems of any complexity. Many people consider
+          Lovelace to be the world's first programmer because she was also the
+          first person to write and publish an algorithm for it.</p>
+        <p>To learn more about Ada Lovelace, read this <a
+              href="https://en.wikipedia.org/wiki/Ada_Lovelace"
+              id="tribute-link" target="_blank">Wikipedia article</a></p>
+      </article>
+    </main>
+    <script
+        src='https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js'></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
